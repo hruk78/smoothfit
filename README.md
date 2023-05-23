@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/nschloe/smoothfit"><img alt="smoothfit" src="https://nschloe.github.io/smoothfit/logo.svg" width="60%"></a>
+  <a href="https://github.com/nschloe/smoothfit"><img alt="smoothfit" src="figs/logo.svg" width="60%"></a>
 </p>
 
 [![PyPi Version](https://img.shields.io/pypi/v/smoothfit.svg?style=flat-square)](https://pypi.org/project/smoothfit)
@@ -40,7 +40,7 @@ multidimensional, too.
 
 #### Runge's example
 
-<img src="https://nschloe.github.io/smoothfit/runge.webp" width="60%">
+<img src="figs/runge.webp" width="60%">
 
 [Runge's example function](https://en.wikipedia.org/wiki/Runge%27s_phenomenon) is a
 tough nut for classical polynomial regression.
@@ -77,7 +77,7 @@ plt.show()
 
 #### Runge's example with noise
 
-<img src="https://nschloe.github.io/smoothfit/runge-noise-lambda.webp" width="60%">
+<img src="figs/runge-noise-lambda.webp" width="60%">
 
 If the data is noisy, `lmbda` needs to be chosen more carefully. If too small, the
 approximation tries to resolve _all_ data points, resulting in many small oscillations.
@@ -114,7 +114,7 @@ plt.show()
 
 #### Few samples
 
-<img src="https://nschloe.github.io/smoothfit/smoothfit-samples.svg" width="40%">
+<img src="figs/smoothfit-samples.svg" width="40%">
 
 ```python
 import numpy as np
@@ -130,7 +130,7 @@ Some noisy example data taken from
 
 #### A two-dimensional example
 
-<img src="https://nschloe.github.io/smoothfit/2d.png" width="40%">
+<img src="figs/2d.png" width="40%">
 
 ```python
 import meshzoo
@@ -161,7 +161,7 @@ samples). Note that the absence of noise the data allows us to pick a rather sma
 
 #### Polynomial fitting/regression
 
-<img src="https://nschloe.github.io/smoothfit/runge-polyfit.webp" width="60%">
+<img src="figs/runge-polyfit.webp" width="60%">
 
 The classical approach to data fitting is [polynomial
 regression](https://en.wikipedia.org/wiki/Polynomial_regression). Polynomials are
@@ -177,8 +177,7 @@ This above plot highlights the problem with oscillations.
 
 #### Fourier smoothing
 
-<img src="https://nschloe.github.io/smoothfit/fourier.svg" width="60%">
-
+<img src="figs/fourier.svg" width="60%">
 One approach to data fitting with smoothing is to create a function with all data
 points, and simply cut off the high frequencies after Fourier transformation.
 
